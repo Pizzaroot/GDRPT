@@ -53,6 +53,7 @@ void mainThread()
 				}
 			}
 			lastPercentage = 0;
+			UpdatePresence("Surfing the menu", "Idle", "gd", getLeaderboardRank(*accountID).c_str(), "play", "0", 0, 0);
 		}
 		~presenceUpdated;
 	}
